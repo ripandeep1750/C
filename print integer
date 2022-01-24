@@ -1,4 +1,4 @@
-/* Tp print an integer entered by user*/
+/* To print an integer entered by user*/
 #include <stdio.h>
 int main() {
     int number;
