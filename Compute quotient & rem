@@ -1,0 +1,23 @@
+// Program to compute Quotient and Remainder
+Dividend = Divisor x Quotient + Remainder
+
+#include <stdio.h>
+int main() {
+    int dividend, divisor, quo, rem;
+    printf("Enter Dividend: ");
+    scanf("%d", &dividend);
+    printf("Enter Divisor: ");
+    scanf("%d",&divisor);
+    
+    quo = dividend / divisor;
+    rem = dividend %  divisor;
+    printf("Quotient will be: %d\n", quo);
+    printf("Remainder will be: %d", rem);
+    return 0;
+}
+
+OUTPUT--------------
+Enter Dividend: 25
+Enter Divisor: 4
+Quotient will be: 6
+Remainder will be: 1
