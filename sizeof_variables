@@ -1,0 +1,21 @@
+// Program to Find the Size of Variables
+#include <stdio.h>
+int main()
+{
+    int a;
+    char c;
+    float f;
+    double d;
+    
+    printf("Size of int a:%d \n", (sizeof(a)));
+      printf("Size of char c:%d \n", (sizeof(c)));
+        printf("Size of float f:%d \n", (sizeof(f)));  
+          printf("Size of doube d:%d \n", (sizeof(d)));
+          return 0;
+}
+
+Output-------
+Size of int a:4 
+Size of char c:1 
+Size of float f:4 
+Size of doube d:8 
